@@ -22,3 +22,5 @@ def embed_query(text: str):
     embedding = np.array(embedding).astype('float32')
     faiss.normalize_L2(embedding)
     return embedding
+
+embedding_model = model
