@@ -7,6 +7,8 @@ import os
 import hashlib
 import json
 from dotenv import load_dotenv
+from app.store import responses_log
+import uuid
 
 
 load_dotenv()
@@ -35,10 +37,6 @@ async def query(body: QueryInput):
                     
     context = "\n\n".join([chunk["text"] for chunk in retrieved_chunks])
     
-    # Check cache first
-    cached = get_cached_response(body.question, context)
-    if cached is not None:
-        return cached
 
     prompt = f"""
     You are a professional document reviewer working in the document review department of a large firm.
@@ -59,13 +57,18 @@ async def query(body: QueryInput):
         contents=prompt
     )
     answer = response.text
+    response_id = str(uuid.uuid4())
+
     
+    responses_log[response_id] = {
+        "query": body.question,
+        "answer": answer,
+        "doc_ids": [chunk["doc_id"] for chunk in retrieved_chunks]
+    }
     response_data = {
+        "response_id": response_id,
         "answer": answer,
         "sources": retrieved_chunks
     }
-    
-    # Store in cache
-    set_cached_response(body.question, context, response_data)
     
     return response_data

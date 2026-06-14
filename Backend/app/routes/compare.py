@@ -9,6 +9,8 @@ import os
 from dotenv import load_dotenv
 from app.utils.embedding import embedding_model
 from typing import List
+import uuid
+from app.store import responses_log
 
 load_dotenv()
 
@@ -60,8 +62,15 @@ async def compare(body: CompareInput):
         model="gemini-2.5-flash",
         contents=prompt
     )
+    response_id = str(uuid.uuid4())
+    responses_log[response_id] = {
+        "query": body.question,
+        "answer": answer,
+        "doc_ids": [chunk["doc_id"] for chunk in retrieved_chunks]
+    }
     
     return {
+        "response_id": response_id,
         "comparison": response.text,
         "doc_ids": body.doc_ids,
         "query": body.query
