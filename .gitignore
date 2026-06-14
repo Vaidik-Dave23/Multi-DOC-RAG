@@ -1,2 +1,13 @@
-.venv/
+# Environment
 .env
+.venv/
+
+# Store files (contain user data)
+store/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# HuggingFace model cache
+.cache/

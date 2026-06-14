@@ -2,7 +2,6 @@ from fastapi import APIRouter
 from pydantic import BaseModel
 from google import genai
 from sklearn.metrics.pairwise import cosine_similarity
-from app.store import metadata
 from app.utils.embedding import embed_query
 import numpy as np
 import os
@@ -11,6 +10,8 @@ from app.utils.embedding import embedding_model
 from typing import List
 import uuid
 from app.store import responses_log
+from app.store import save_store
+import app.store as store
 
 load_dotenv()
 
@@ -27,7 +28,7 @@ async def compare(body: CompareInput):
     
     doc_contexts = []
     for i, doc_id in enumerate(body.doc_ids):
-        doc_chunks = [c for c in metadata if c["doc_id"] == doc_id]
+        doc_chunks = [c for c in store.metadata if c["doc_id"] == doc_id]
         
         if not doc_chunks:
             continue
@@ -68,6 +69,7 @@ async def compare(body: CompareInput):
         "answer": answer,
         "doc_ids": [chunk["doc_id"] for chunk in retrieved_chunks]
     }
+    save_store()
     
     return {
         "response_id": response_id,

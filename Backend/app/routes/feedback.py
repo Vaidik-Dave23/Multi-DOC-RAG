@@ -2,6 +2,7 @@ from datetime import datetime
 from app.store import feedback_log, responses_log
 from pydantic import BaseModel
 from fastapi import APIRouter
+from app.store import save_store
 
 router = APIRouter()
 
@@ -20,6 +21,7 @@ async def feedback(fb: FeedbackInput):
         "timestamp": datetime.now().isoformat(),
         "original_query": responses_log[fb.response_id]["query"]
     })
+    save_store()
     
     return {
         "message": "Feedback recorded",

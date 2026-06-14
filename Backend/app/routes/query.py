@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 from app.utils.embedding import embed_query
-from app.store import index, metadata
+import app.store as store
 from google import genai
 import os
 import hashlib
@@ -9,6 +9,7 @@ import json
 from dotenv import load_dotenv
 from app.store import responses_log
 import uuid
+from app.store import save_store
 
 
 load_dotenv()
@@ -28,12 +29,12 @@ async def query(body: QueryInput):
     embedding = embed_query(body.question)
     
     retrieved_chunks = []
-    if len(metadata) > 0 and index.ntotal > 0:
-        distances, indices = index.search(embedding, k=5)
+    if len(store.metadata) > 0 and store.index.ntotal > 0:
+        distances, indices = store.index.search(embedding, k=5)
         if indices is not None and len(indices) > 0:
             for i in indices[0]:
-                if i != -1 and 0 <= i < len(metadata):
-                    retrieved_chunks.append(metadata[i])
+                if i != -1 and 0 <= i < len(store.metadata):
+                    retrieved_chunks.append(store.metadata[i])
                     
     context = "\n\n".join([chunk["text"] for chunk in retrieved_chunks])
     
@@ -70,5 +71,7 @@ async def query(body: QueryInput):
         "answer": answer,
         "sources": retrieved_chunks
     }
+
+    save_store()
     
     return response_data

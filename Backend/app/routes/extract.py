@@ -3,7 +3,7 @@ from google import genai
 import os
 from dotenv import load_dotenv
 import json
-from app.store import metadata
+import app.store as store
 from pydantic import BaseModel
 
 load_dotenv()
@@ -19,7 +19,7 @@ class ExtractInput(BaseModel):
 
 @router.post("/extract")
 def extract_text(body: ExtractInput):
-    doc_chunks = [chunk for chunk in metadata if chunk["doc_id"] == body.doc_id]
+    doc_chunks = [chunk for chunk in store.metadata if chunk["doc_id"] == body.doc_id]
     context = "\n\n".join([chunk["text"] for chunk in doc_chunks])
 
     prompt = f"""
