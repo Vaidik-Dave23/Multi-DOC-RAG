@@ -65,9 +65,9 @@ async def compare(body: CompareInput):
     )
     response_id = str(uuid.uuid4())
     responses_log[response_id] = {
-        "query": body.question,
-        "answer": answer,
-        "doc_ids": [chunk["doc_id"] for chunk in retrieved_chunks]
+        "query": body.query,
+        "answer": response.text,
+        "doc_ids": body.doc_ids
     }
     save_store()
     

@@ -13,7 +13,7 @@ async def upload(file: UploadFile = File(...)):
     contents = await file.read()
     text = extract_text(contents)
     chunks = naive_chunk(text)
-    embed_and_store(chunks, doc_id)
+    embed_and_store(chunks, doc_id, file.filename)
     save_store()
     return {"message": "Document uploaded successfully", "doc_id": doc_id}
 
@@ -27,3 +27,26 @@ def debug():
         "total_chunks": len(store.metadata),
         "sample": store.metadata[:3]
     }
+
+@router.get("/documents")
+def get_documents():
+    docs = {}
+    for chunk in store.metadata:
+        doc_id = chunk["doc_id"]
+        if doc_id not in docs:
+            docs[doc_id] = {
+                "doc_id": doc_id,
+                "chunk_count": 0,
+                "filename": chunk.get("filename", "Untitled")
+            }
+        docs[doc_id]["chunk_count"] += 1
+    return {"documents": list(docs.values())}
+@router.delete("/documents/{doc_id}")
+def delete_document(doc_id: str):
+    original_count = len(store.metadata)
+    store.metadata = [c for c in store.metadata if c["doc_id"] != doc_id]
+    removed = original_count - len(store.metadata)
+    if removed == 0:
+        return {"error": "Document not found"}
+    save_store()
+    return {"message": f"Removed {removed} chunks for {doc_id}"}
