@@ -1,0 +1,74 @@
+id,category,answer,latency_ms,contexts_n,faithfulness,answer_relevancy,context_precision,context_recall
+Q01,factual,"The Writ Petition number in the *Kesavananda Bharati v. State of Kerala* case is **135 of 1970**.
+
+This information is based on the ""CASE OVERVIEW & INTRODUCTION"" section of the document, specifically under the line labeled ""CASE NO.:"".",14894.9,5,1.0,0.856,0.2601,1.0
+Q02,factual,"As a professional document reviewer, I have examined the provided text.
+
+The judgment in the case of **Kesavananda Bharati v. State of Kerala** was delivered on **April 24, 1973**.
+
+This information is based on the ""CASE OVERVIEW & INTRODUCTION"" section of the document, specifically under the entry:
+*   **DATE OF JUDGMENT: 24/04/1973**",13445.2,4,1.0,0.7863,0.1941,1.0
+Q03,factual,"Based on the document provided, the petitioner in the case is **Kesavananda Bharati Sripadagalvaru and Ors**.
+
+This information is found in the ""CASE OVERVIEW & INTRODUCTION"" section under the header ""PETITIONER.""",13840.2,5,1.0,0.8269,0.2709,1.0
+Q04,factual,"Based on the documents provided, there were **13 judges** who sat on the bench for the *Kesavananda Bharati v. State of Kerala* case.
+
+This information is derived from the ""JUDGMENT"" section of the provided text, which lists the following judges:
+
+""S.M. Sikri, C.J., A.N. Grover, A.N. Ray, D.G. Palekar, H.R. Khanna, J.M. Shelat, K.K. Mathew, K.S. Hegde, M.H. Beg, P. Jaganmohan Reddy, S.N. Dwivedi and Y.V. Chandrachud, JJ.""",13778.0,5,0.67,0.8715,0.3081,0.0
+Q05,conceptual,"As a professional document reviewer, I have analyzed the provided excerpts to address your query regarding the ""Basic Structure Doctrine"" as established in *Kesavananda Bharati*.
+
+**Analysis:**
+Based on the documents provided, there is **no specific definition, explanation, or mention of the ""Basic Structure Doctrine""** as established in the *Kesavananda Bharati* case.
+
+The provided text contains general references to:
+*   Legal philosophers (Bentham, Holmes, Kelsen) and their views on the ""law of nature.""
+*   The responsibilities of the Indian Constituent Assembly regarding the balance between individual liberty, public good, property rights, and social benefits (found in the second excerpt).
+*   The use of the American Declaration of Independence in determining U.S. constitutional questions (found in the third excerpt).
+
+**Conclusion:**
+Because the provided documents do not contain information pertaining to the ""Basic Structure Doctrine"" or the holding of *Kesavananda Bharati v. State of Kerala*, I cannot answer your question using the provided source material. It is possible that the relevant pages describing that doctrine were not included in the provided snippets.",14641.5,3,1.0,0.8009,0.3918,0.0
+Q06,conceptual,"Based on the document provided, the text does not contain a specific list of the constitutional amendments that were challenged in the *Kesavananda Bharati* case. 
+
+The provided document references other legal contexts, such as the ""18th amendment"" in the context of the ""National Prohibition cases in the State of Rhode Island v. A. Mitchel Palmer"" (found in the final paragraph), but it does not identify the specific amendments challenged in the *Kesavananda Bharati* matter. 
+
+Consequently, based on the provided text, the answer to your question cannot be determined.",14643.7,3,1.0,0.8188,0.3727,0.0
+Q07,conceptual,"As a professional document reviewer, I have analyzed the provided excerpts. Based on the text provided, I must inform you that the documents do not contain information regarding the role of the *Golaknath* case in the *Kesavananda Bharati* judgment.
+
+The provided text focuses on the following themes:
+*   The implementation of Directive Principles in relation to public interest and the common weal.
+*   The use of American Jurisprudence and the Declaration of Independence in interpreting Constitutional questions.
+*   General observations regarding the rigidity of Constitutions, the distinction between constituent and legislative power, and the nature of Constitutional change.
+
+The specific legal relationship or historical impact of *Golaknath* on *Kesavananda Bharati* is not addressed in these pages. If you have additional document pages that contain discussions on these specific precedents, please provide them, and I would be happy to assist you further.",14076.8,3,1.0,0.8154,0.1285,0.0
+Q08,synthesis,"Based on the documents provided, there is no mention of Justice H.R. Khanna or his specific views regarding the amendability of fundamental rights.
+
+The provided text consists of two distinct segments:
+1.  **The first segment** discusses the general theory of the amending power in the context of ""rigid or controlled Constitutions"" versus ""flexible"" ones, citing *Whitehall v. Elkins 389 U.S. 54*. It focuses on the scope of the amending power rather than the specific rights of individuals.
+2.  **The second segment** discusses the judicial review of the ""amount"" fixed during the acquisition or requisition of property.
+
+Because the provided source material contains no reference to Justice H.R. Khanna or fundamental rights, I cannot provide an answer to your question based on these documents.",15200.2,2,1.0,0.8153,0.2986,0.0
+Q09,synthesis,"Based on the provided document, A.N. Ray J.’s position on Parliament’s amending power can be summarized as follows:
+
+**Position on Amending Power**
+A.N. Ray J. maintained that the Constitution provides for a specific, structured procedure for amendments. He noted that the amendment process is initiated by a Bill and follows the procedure laid down in Article 368, which may be supplemented by the procedures prescribed in Article 107. Furthermore, he emphasized that the framers of the Constitution recognized that Fundamental Rights were not absolute. Consequently, he argued that the general welfare of a democratic society may necessitate the limitation or even the removal of these rights under certain circumstances, a principle supported by the Constitution’s inclusion of provisions for imposing restrictions on those rights.
+
+**Source of Information**
+This answer is based on the two paragraphs provided:
+*   The first paragraph, which outlines the procedural requirements for constitutional amendments via Article 368 and Article 107.
+*   The second paragraph (specifically points 1749 and 1750), which discusses the non-absolute nature of Fundamental Rights and the necessity of allowing for their limitation in the interest of the general welfare of a democratic society.",14647.4,2,1.0,0.6869,0.3112,0.0
+Q10,edge_case,"Based on the document provided, there is no mention of a ""Justice Smith"" nor any specific commentary regarding ""land reforms.""
+
+The provided text focuses exclusively on the legal elements and scope of Article 31C of the Constitution, specifically outlining:
+
+*   The legislature's authority to create laws inconsistent with, or that abridge/take away, the rights conferred by Articles 14, 19, and 31 in order to give effect to Article 39(b) and (c).
+*   The prohibition on challenging the validity of such laws in court based on whether they actually fulfill the stated policy objectives.
+
+Since the provided text does not contain information regarding a Justice Smith or his views on land reforms, I cannot answer your question using the source material provided.",14394.6,1,1.0,0.8676,0.3121,0.0
+Q11,edge_case,"Based on the document provided, there is no mention of the Kerala Land Reforms Act, nor is there any information regarding the specific punishment for violating such an act.
+
+The provided text consists of excerpts from a debate or legal commentary regarding constitutional principles, specifically discussing the tension between equality, non-discrimination, and the supremacy of Parliament.
+
+The relevant parts of the document focus on:
+*   **Paragraph 1:** The conceptual difficulty of achieving equality without violating the principles of non-discrimination when attempting to improve the status of marginalized groups.
+*   **Paragraph 2:** A critique of constitutional amendments that grant Parliament the power to pass legislation that overrides fundamental rights, questioning the necessity of having fundamental rights if Parliament’s laws are deemed automatically supreme and binding.",15083.3,2,1.0,0.8231,0.1734,0.0

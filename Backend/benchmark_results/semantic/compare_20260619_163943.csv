@@ -1,0 +1,143 @@
+id,category,answer,latency_ms,contexts_n,faithfulness,answer_relevancy,context_precision
+C01,compare_opposing,"As a professional document comparison analyst, I will compare the views of Sikri CJ and A.N. Ray J. on Parliament's power to amend the Constitution based on the provided excerpts.
+
+### Comparison for each document:
+
+*   **Document 1:**
+    This document reflects the Golak Nath majority view (concurred by Sikri J.), stating that the power to amend the Constitution is derived from Articles 245, 246, and 248, and not from Article 368, which is only procedural. It also notes that the Chief Justice (Subba Rao) refused to express an opinion on whether Parliament could destroy the ""fundamental structure"" of the Constitution. This view of Article 368 as purely procedural is consistent with Sikri CJ's stance in Golak Nath. A.N. Ray J.'s view, which emphasizes Article 368 as the source of unlimited power, would contradict this.
+
+*   **Document 2:**
+    Similar to Document 1, this excerpt reiterates the Golak Nath majority conclusion (Sikri J. concurred) that amending power flows from Articles 245, 246, and 248, with Article 368 merely outlining procedure. It also presents the opposing argument that ""there is no limit to the powers of Parliament to amend the Constitution,"" a position that aligns with A.N. Ray J.'s later view.
+
+*   **Document 3:**
+    This document refers to B.R. Ambedkar and Subba Rao C.J. considering the 'basic structure' argument. While it mentions the argument against destroying the Constitution's structure, it does not explicitly state the views of Sikri CJ or A.N. Ray J. on this point.
+
+*   **Document 4:**
+    This document describes the view from earlier cases (Shankari Prasad, Sajjan Singh) and the dissenting judgment in Golak Nath, which held that every provision of the Constitution could be amended using ""constituent power,"" implying an unlimited power. This perspective is consistent with the broad, unlimited amending power advocated by A.N. Ray J., but it contradicts Sikri CJ's eventual stance on limitations. Neither judge is explicitly named.
+
+*   **Document 5:**
+    This document explicitly states that **Sikri J.** concurred with Subba Rao C.J. in Golak Nath, holding that the power to amend was in Articles 245, 246, and 248 (read with Entry 97 List I), and *not* in Article 368, which was deemed purely procedural. It also notes that the question of destroying the ""structure of the Constitution"" was considered but not decided by that bench, though it was acknowledged to have ""considerable force."" This clearly details Sikri CJ's position at the time of Golak Nath.
+
+*   **Document 6:**
+    This document again affirms the Golak Nath majority view (Sikri J. concurred) that the power to amend is derived from Articles 245, 246, and 248, with Article 368 only dealing with procedure. This reinforces Sikri CJ's earlier stance regarding the source and nature of the amending power.
+
+*   **Document 7:**
+    This excerpt articulates the ""basic structure"" argument: ""In the exercise of the power of amendment, Parliament could not destroy the structure of the Constitution but it could only modify the provisions thereof..."" This aligns with **Sikri CJ's** pivotal judgment in Kesavananda Bharati, where he established the basic structure doctrine, limiting Parliament's amending power. It also mentions the idea of a ""very wide amending power,"" which could be seen as a general point supporting A.N. Ray J.'s position, but it is immediately followed by the basic structure limitation.
+
+*   **Document 8:**
+    This document directly states the core of **Sikri CJ's** view in Kesavananda Bharati: ""the power to amend cannot be narrowly construed and extends to all the Articles it is not unlimited so as to include the power to abrogate or change the identity of the Constitution or its basic features."" This clearly defines the ""basic structure"" doctrine and explicitly places a limitation on Parliament's amending power, directly opposing A.N. Ray J.'s view of unlimited power.
+
+*   **Document 9:**
+    Similar to Document 3, this excerpt mentions Subba Rao C.J. dealing with the 'basic structure' argument but does not provide the explicit views of Sikri CJ or A.N. Ray J. on it.
+
+*   **Document 10:**
+    This document states that ""In exercise of the power conferred by Article 368 it was competent to the Parliament... to amend any provision of the Constitution."" This position, that Article 368 confers the power and it is extensive enough to amend *any* provision, is central to **A.N. Ray J.'s** view of unlimited amending power. It also includes specific conclusions consistent with A.N. Ray J.'s judgment, such as the non-delegation of amending power.
+
+### Final Summary of which document is most favorable/unfavorable and why:
+
+**Sikri CJ's View:**
+Initially, in *Golak Nath* (Documents 1, 2, 5, 6), Sikri J. concurred with the majority view that the power to amend the Constitution was derived from the residuary legislative powers (Articles 245, 246, 248) and not from Article 368, which was deemed purely procedural. This implied that Parliament could not amend Fundamental Rights.
+Later, as Chief Justice in *Kesavananda Bharati* (Documents 7, 8), Sikri CJ articulated the landmark ""basic structure doctrine."" He held that while Article 368 conferred both the power and the procedure to amend the Constitution, this power was **not unlimited**. Parliament could amend any provision, but it could not ""abrogate or change the identity of the Constitution or its basic features.""
+
+**A.N. Ray J.'s View:**
+A.N. Ray J. consistently held that Parliament's power to amend the Constitution under Article 368 was **absolute and unlimited** (Documents 2, 4, 10). He believed that Article 368 provided both the power and the procedure for amendment, and there were no inherent or implied limitations on this power. In his view, Parliament, exercising its constituent power, could amend any provision of the Constitution, including fundamental rights, and was not bound by any ""basic structure"" concept. He also specified that Parliament could not delegate its amending function (Document 10).
+
+**Most Favorable/Unfavorable Document:**
+
+The document most **favorable to understanding Sikri CJ's definitive position** and most **unfavorable to A.N. Ray J.'s position** is **Document 8**.
+
+**Why Document 8 is most favorable/unfavorable:**
+Document 8 explicitly lays down the core principle of **Sikri CJ's** judgment in *Kesavananda Bharati*: ""though the power to amend cannot be narrowly construed and extends to all the Articles it is not unlimited so as to include the power to abrogate or change the identity of the Constitution or its basic features."" This statement directly introduces and defines the ""basic structure doctrine,"" which fundamentally limits Parliament's amending power. This doctrine represents the pivotal judicial innovation by Sikri CJ and directly contradicts the unlimited amending power advocated by A.N. Ray J. Therefore, Document 8 is the most potent representation of Sikri CJ's limiting view, making it inherently ""unfavorable"" to the expansive, unlimited power view held by A.N. Ray J.",46320.8,10,0.44,0.7305,0.6673
+C02,compare_theme,"Here's a comparison of how the majority and minority views differ on whether Fundamental Rights can be amended, as presented in the provided documents:
+
+### Comparison for Each Document:
+
+*   **Document 1 (ID: 2fd67f89-07a7-476e-a8ca-4bc10760eaaf):**
+    *   **View:** This document reflects a **minority view**, as expressed by Ramaswami, J.
+    *   **Stance on Fundamental Rights Amendment:** Ramaswami, J., held that there were ""no implied limitations on the amending power and all articles of the Constitution were amendable,"" including Fundamental Rights. He asserted the amending power as ""an adjunct of sovereignty,"" implying a plenary and unrestricted power. This view suggests Fundamental Rights are fully susceptible to amendment, abridgment, or even repeal without inherent substantive limits.
+
+*   **Document 2 (ID: 9c143317-2991-4e7b-83b2-3508af30be6e):**
+    *   **View:** This document reflects a view arguing against the abrogation of fundamental rights, potentially aligning with arguments for **limited amending power**.
+    *   **Stance on Fundamental Rights Amendment:** It states that it was the ""common understanding that fundamental rights would remain in substance as they are and they would not be amended out of existence."" It also mentions that ""no one ever contemplated that fundamental rights... would be liable to be abrogated."" This suggests an inherent non-amendability for the core existence of these rights, leaning towards the majority view that limits Parliament's power to destroy the essence of Fundamental Rights.
+
+*   **Document 3 (ID: c9d86a91-cfe4-4d91-a853-9fbc1a1e7dc5):**
+    *   **View:** This document clearly articulates a **majority view** (the basic structure doctrine).
+    *   **Stance on Fundamental Rights Amendment:** It emphasizes the ""importance or transcendental character of the Fundamental Rights"" and the ""implied or inherent limitations on the amending power."" Crucially, it states that ""the fundamental rights embodied in Part III are a part of the 'essential features' and if their essence or core can be damaged or taken away, the 24th amendment will be void and illegal."" This establishes a substantive limit on the amending power, asserting that while Fundamental Rights can be amended, their essential core cannot be abrogated.
+
+*   **Document 4 (ID: 5b47e6c8-d33d-484a-9f35-f11964078d9e):**
+    *   **View:** This document explicitly presents ""The concurring majority view.""
+    *   **Stance on Fundamental Rights Amendment:** This majority view held that ""the fundamental rights could be abridged by suitably amending Article 368 to convoke Constituent Assembly."" It further suggests that ""all fundamental rights can be taken away by the requisite majority"" through this rigorous process. While implying that fundamental rights *can* be taken away, the requirement of amending Article 368 and convening a Constituent Assembly imposes a significant procedural hurdle, indicating they are not amenable through the ordinary process.
+
+*   **Document 5 (ID: 876d0b87-4cb6-4b1e-91b1-5e0ffa8d6892):**
+    *   **View:** This document presents a mixed perspective, containing arguments for both limited and unlimited amending power.
+    *   **Stance on Fundamental Rights Amendment:** It first states that while Fundamental Rights ""could be abridged somewhat, it was not permissible to affect by amendment the core of the fundamental rights"" (aligning with limited power). However, it then argues that the Constitution makes the ""whole of it... amendable"" and concludes ""it is impossible to imply any limitations on the power to amend the fundamental rights"" (aligning with plenary power).
+
+*   **Document 6 (ID: 47bb5dee-8b0b-4ae2-b31f-85a1ee3ae957):**
+    *   **View:** This document advocates for the existence of the power to amend Fundamental Rights, aligning with the **minority view** of plenary power.
+    *   **Stance on Fundamental Rights Amendment:** It firmly states that ""the power to amend the provisions of the Constitution relating to the fundamental rights cannot be denied."" It frames the central question as whether Article 368 grants the power ""to take away or abridge the fundamental rights,"" implying that such power exists and should be exercised.
+
+*   **Document 7 (ID: 049895f8-794b-4eef-84e9-c90bff774c28):**
+    *   **View:** This document suggests a **limited amending power**, requiring more than the ""ordinary amending process.""
+    *   **Stance on Fundamental Rights Amendment:** It posits that ""the fundamental rights, even though an essential feature of the Constitution, are within the sway of the amending power in Article 368."" However, it crucially adds that ""Fundamental Rights cannot be abridged or taken away by the ordinary amending process."" This implies that while amendable, a special or more stringent process, or perhaps respect for their essential nature, is required.
+
+*   **Document 8 (ID: 73756699-4ee6-4148-bc66-30cf593e2735):**
+    *   **View:** This document clearly states the **majority view** (basic structure doctrine).
+    *   **Stance on Fundamental Rights Amendment:** Bachawat, J., noted that ""the fundamental rights are within the reach of the amending power."" More significantly, it states that ""Subject to the retention of the basic structure or framework of the Constitution,"" the power of amendment is plenary and includes ""the power to add, alter or repeal the various articles including those relating to fundamental rights."" This is a definitive statement of the limited amending power, where Fundamental Rights can be amended, but their essential framework cannot be destroyed.
+
+*   **Document 9 (ID: b2d2e8d6-2b07-44f4-be82-f4a678394cef):**
+    *   **View:** This document is identical to Document 4, explicitly presenting ""The concurring majority view.""
+    *   **Stance on Fundamental Rights Amendment:** It reiterates that this majority view held that Fundamental Rights ""could be abridged by suitably amending Article 368 to convoke Constituent Assembly,"" and that ""all fundamental rights can be taken away by the requisite majority"" through such a process.
+
+*   **Document 10 (ID: c6f067f0-81fb-4059-b0d9-f04ab38cbefe):**
+    *   **View:** This document presents multiple perspectives, touching upon both procedural hurdles and the existence of power.
+    *   **Stance on Fundamental Rights Amendment:** It mentions a view that ""for making radical alterations so as to abridge Fundamental Rights Article 368 should be suitably amended and the Constituent Assembly should be called"" (a high procedural bar). It also states that the idea ""that Parliament had no power to amend the Constitution so as to abrogate or take away Fundamental Rights is incorrect,"" implying such power exists (aligning with plenary power). Finally, it discusses judicial review of ""reasonable abridgements,"" which is consistent with the basic structure's application to amendments.
+
+### Final Summary of Favorable/Unfavorable Documents:
+
+**Most Favorable to *Unrestricted* Amendment of Fundamental Rights (Minority View):**
+
+*   **Document 1 (ID: 2fd67f89-07a7-476e-a8ca-4bc10760eaaf):** This document is **most favorable** to the view of unrestricted amending power. Ramaswami, J.'s clear assertion of ""no implied limitations"" and that ""all articles... were amendable"" places it squarely in the minority camp that believes Fundamental Rights can be altered or abrogated without inherent substantive constraints.
+*   **Document 6 (ID: 47bb5dee-8b0b-4ae2-b31f-85a1ee3ae957):** This document is highly favorable to the existence of the power to ""take away or abridge"" Fundamental Rights, explicitly arguing against denying this power.
+*   **Document 5 (ID: 876d0b87-4cb6-4b1e-91b1-5e0ffa8d6892) (latter half):** Its final conclusion that ""it is impossible to imply any limitations on the power to amend the fundamental rights"" makes it strongly align with the unrestricted view, despite an earlier mention of protecting the ""core.""
+*   **Document 10 (ID: c6f067f0-81fb-4059-b0d9-f04ab38cbefe) (partially):** The statement that the idea of Parliament having no power to abrogate Fundamental Rights ""is incorrect"" directly supports the existence of such a power, thus leaning towards a broad interpretation.
+
+**Most Unfavorable to *Unrestricted* Amendment of Fundamental Rights (Majority View / Limited Power):**
+
+*   **Document 3 (ID: c9d86a91-cfe4-4d91-a853-9fbc1a1e7dc5):** This document is **most unfavorable** to unrestricted amendment. It clearly articulates the ""essential features"" and ""core"" doctrine, stating that if the essence of Fundamental Rights is damaged, the amendment is ""void and illegal."" This is the cornerstone of the Basic Structure Doctrine, which limits Parliament's amending power.
+*   **Document 8 (ID: 73756699-4ee6-4148-bc66-30cf593e2735):** This document explicitly states that the power of amendment is ""Subject to the retention of the basic structure or framework of the Constitution,"" making it strongly unfavorable to any unrestricted power to amend Fundamental Rights.
+*   **Document 2 (ID: 9c143317-2991-4e7b-83b2-3508af30be6e):** This document is unfavorable to unrestricted amendment, emphasizing the original understanding that Fundamental Rights ""would not be amended out of existence"" and should not be ""abrogated.""
+*   **Document 7 (ID: 049895f8-794b-4eef-84e9-c90bff774c28):** By stating that Fundamental Rights ""cannot be abridged or taken away by the ordinary amending process,"" this document suggests significant limitations on *how* they can be amended, implying they are not subject to unrestricted alteration.
+*   **Document 4 (ID: 5b47e6c8-d33d-484a-9f35-f11964078d9e) and Document 9 (ID: b2d2e8d6-2b07-44f4-be82-f4a678394cef):** While these documents mention that Fundamental Rights *can* be taken away, the stipulated condition of ""suitably amending Article 368 to convoke Constituent Assembly"" implies such an extraordinary procedural hurdle that it effectively makes unrestricted amendment by ordinary means impossible, thus aligning with a view that strongly limits typical amending power.",53571.3,10,0.9444,0.7811,0.6615
+C03,compare_nuanced,"**Comparison for each document:**
+
+*   **Document 1 (ID: 2fd67f89-07a7-476e-a8ca-4bc10760eaaf):** This document lists Dwivedi and Y.V. Chandrachud, JJ. among the judges. However, it specifically states that ""S.M Ramaswami, J., held: (5) There were no implied limitations on the amending power..."". While Chandrachud J. is mentioned, the stance on ""no implied limitations"" is explicitly attributed to Ramaswami J., not directly to Chandrachud J. The document provides no information regarding Shelat & Grover JJ.
+
+*   **Document 2 (ID: 9c143317-2991-4e7b-83b2-3508af30be6e):** This document discusses the general concept of implied limitations on the amending power but does not attribute specific views to Shelat & Grover JJ. or Chandrachud J.
+
+*   **Document 3 (ID: c9d86a91-cfe4-4d91-a853-9fbc1a1e7dc5):** This document is highly significant for the comparison. It unequivocally states: ""The only judge who rejected the contention that there are inherent or implied limitations on the amending power was Ramaswami J"". This statement strongly implies that all other judges involved in the relevant legal discussion (including Shelat & Grover JJ. and Chandrachud J., if they were part of that specific judicial context) *did not reject*, and therefore, by inference, *accepted* or at least did not oppose the concept of inherent or implied limitations.
+
+*   **Document 4 (ID: 5b47e6c8-d33d-484a-9f35-f11964078d9e):** This document asserts that ""There are no implied limitations to the amending power"" but does not attribute this view to Shelat & Grover JJ. or Chandrachud J.
+
+*   **Document 5 (ID: 876d0b87-4cb6-4b1e-91b1-5e0ffa8d6892):** This document describes the extensive debate surrounding the ""existence or non-existence of any implied limitations on the amending power"" but does not provide specific stances of Shelat & Grover JJ. or Chandrachud J.
+
+*   **Document 6 (ID: 47bb5dee-8b0b-4ae2-b31f-85a1ee3ae957):** This document mentions Ramaswami J.'s conclusions and ""proponents of implied limitations"" but does not specifically detail the approaches of Shelat & Grover JJ. or Chandrachud J. on this issue.
+
+*   **Document 7 (ID: 049895f8-794b-4eef-84e9-c90bff774c28):** This document notes that ""two other learned Judges who associated with him have held that there are no inherent and implied limitations on the amending power"". However, it does not identify these judges as Shelat & Grover JJ. or Chandrachud J., making it non-specific for this comparison.
+
+*   **Document 8 (ID: 73756699-4ee6-4148-bc66-30cf593e2735):** Similar to Document 3, this document reinforces the point: ""The only judge who rejected the contention that there are inherent or implied limitations on the amending power was Ramaswami J"". This again leads to the inference that Shelat & Grover JJ. and Chandrachud J. (not being Ramaswami J.) must have *accepted* or not rejected such limitations.
+
+*   **Document 9 (ID: b2d2e8d6-2b07-44f4-be82-f4a678394cef):** This document contains general statements about ""no implied limitations"" but does not attribute this specific view to Shelat & Grover JJ. or Chandrachud J.
+
+*   **Document 10 (ID: c6f067f0-81fb-4059-b0d9-f04ab38cbefe):** This document states ""No inherent limitations on the amending power"" and that ""No limitation on the amending power could be gathered from the language of Article 368"". However, it does not link these assertions to Shelat & Grover JJ. or Chandrachud J.
+
+**Final Summary of which document is most favorable/unfavorable and why:**
+
+Based *strictly* on the provided documents:
+
+*   **Shelat & Grover JJ.:** Documents 3 and 8 are the most informative. They strongly suggest that Shelat & Grover JJ. *accepted* or at least did not reject the concept of implied limitations on the amending power. The statement that Ramaswami J. was the ""only judge who rejected"" this contention inherently places all other judges, including Shelat & Grover JJ., in the category of those who did not reject it. This aligns with the known historical context of Shelat & Grover JJ. being part of the majority that propounded the Basic Structure Doctrine, which establishes implied limitations.
+
+*   **Chandrachud J.:** For Chandrachud J., Documents 3 and 8 also lead to the inference that he *accepted* or did not reject implied limitations. The definitive phrasing that Ramaswami J. was the ""only judge"" to reject them means Chandrachud J., by logical extension from the provided text, must have held the opposite view. Document 1, while mentioning Chandrachud J., specifically attributes the ""no implied limitations"" view to Ramaswami J., thus not contradicting the inference from Documents 3 and 8 about Chandrachud J.
+
+Therefore, the documents are most **favorable** to the interpretation that **Shelat & Grover JJ. accepted implied limitations** on the amending power, as they were not Ramaswami J., who was stated to be the *only* one to reject them.
+
+Conversely, the documents are somewhat **unfavorable** to the common legal understanding of **Chandrachud J. rejecting implied limitations** (as he was part of the minority in Kesavananda Bharati). The reason for this ""unfavorable"" alignment is that, strictly based on these texts, he is also encompassed by the inference from Documents 3 and 8 that he *did not reject* implied limitations, because Ramaswami J. was the *only* one to do so. This highlights a potential discrepancy between the specific excerpts provided and broader external legal knowledge, but adheres to the instruction to rely solely on the given text.",40533.2,10,0.3,0.8274,0.6027

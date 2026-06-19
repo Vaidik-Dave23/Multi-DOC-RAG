@@ -1,0 +1,24 @@
+{
+  "chunker": "hierarchical",
+  "timestamp": "20260619_165748",
+  "cache_stats": "0 hits / 53 lookups (0% hit rate)",
+  "query": {
+    "n": 11,
+    "avg_latency_ms": 8992.2,
+    "metrics": {
+      "faithfulness": 0.9245,
+      "answer_relevancy": 0.7768,
+      "context_precision": 0.1699,
+      "context_recall": 0.0455
+    }
+  },
+  "compare": {
+    "n": 3,
+    "avg_latency_ms": 58254.1,
+    "metrics": {
+      "faithfulness": 0.7733,
+      "answer_relevancy": 0.7553,
+      "context_precision": 0.5993
+    }
+  }
+}

@@ -69,6 +69,7 @@ async def query(body: QueryInput):
     response_data = {
         "response_id": response_id,
         "answer": answer,
+        "contexts": [chunk["text"] for chunk in retrieved_chunks],
         "sources": retrieved_chunks
     }
 

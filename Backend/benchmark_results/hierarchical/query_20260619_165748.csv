@@ -1,0 +1,45 @@
+id,category,answer,latency_ms,contexts_n,faithfulness,answer_relevancy,context_precision,context_recall
+Q01,factual,"Based on the document provided, the Writ Petition number for the *Kesavananda Bharati v. State of Kerala* case is not mentioned.
+
+The provided text only contains a brief mention of the case name (*KESAVANANDA BHARATI v STATE OF KERALA (1973)*), a heading (*SUPREME COURT OF INDIA - CASE OVERVIEW & INTRODUCTION*), a website reference (*http://JUDIS.NIC.IN*), and a sentence fragment regarding B.N. Rau. None of the provided content includes the specific Writ Petition number.",7811.8,2,1.0,0.8419,0.3715,0.0
+Q02,factual,"Based on the document provided, there is no mention of the date on which the *Kesavananda Bharati* judgment was delivered.
+
+The document only contains information regarding the adoption date of the Constitution (October 17, 1949) and a reference to the *In Re: Berubari Union & Exchange of Enclaves (1960)* case.",8805.6,1,1.0,0.8408,0.0921,0.0
+Q03,factual,"Based on the document provided, the petitioner in the case was **Kesavananda Bharati**.
+
+This answer is based on the document title: **""KESAVANANDA BHARATI v STATE OF KERALA (1973)""**.",9156.3,1,1.0,0.8366,0.6829,0.5
+Q04,factual,"Please provide the documents you are referring to. You have not uploaded any text or data for me to review. 
+
+Once you provide the document content, I will be able to extract the information regarding the number of judges in the *Kesavananda Bharati* case and cite the specific portion of the document where that information is located.",8824.8,0,1.0,0.7174,0.0,0.0
+Q05,conceptual,"As a professional document reviewer, I have analyzed the provided text to address your inquiry regarding the Basic Structure Doctrine.
+
+### **Analysis of the Basic Structure Doctrine**
+
+Based on the provided document, the ""Basic Structure"" concept—as discussed in the context of the *Kesavananda Bharati* case—refers to the fundamental principles and organic law that underpin the Constitution. 
+
+According to the text, the doctrine posits that:
+*   **The Purpose of Amendment:** The amendment process exists to allow for changes to the ""fundamental law or organic law"" and to alter the ""basic principles in the Constitution."" 
+*   **The Role of Amending Power:** The high amending power is specifically granted to avoid the necessity of revolution, thereby ensuring that the Constitution is preserved by allowing it to evolve rather than be discarded.
+
+### **Source Reference**
+This answer is based on the following excerpt from the provided document:
+
+> ""...the very object of amendment is to make changes in the fundamental law or organic law to make fundamental changes in the Constitution, to change the fundamental or the basic principles in the Constitution.. Otherwise there will be no necessity to give that importance to the high amending power to avoid revolution.. 893.. The object of amendment is to see that the Constitution is preserved.""",10012.2,1,0.67,0.6418,0.1461,0.0
+Q06,conceptual,"Based on the document provided, there is no mention of the *Kesavananda Bharati* case nor any reference to constitutional amendments.
+
+The provided text only discusses the report of B.N. Rau dated July 4, 1947, and the drafting process of the Preamble. Consequently, it is not possible to answer your question using the information contained in this document.",8885.5,1,1.0,0.8289,0.2025,0.0
+Q07,conceptual,"Please provide the document content or the extracted information you are referring to. 
+
+You mentioned that ""the relevant information extracted from them is below,"" but that section of your message is currently empty. Once you provide the text or the summary of the documents, I will be able to analyze them and provide a professional explanation of the role of the *Golaknath* case in the *Kesavananda Bharati* judgment, specifically citing the relevant sections of your documents as requested.",8926.7,0,0.5,0.7367,0.0,0.0
+Q08,synthesis,"Based on the documents provided, there is no information available regarding Justice H.R. Khanna’s views on the amendability of fundamental rights. 
+
+The provided text focuses exclusively on the Indian Independence Act of 1947, the Government of India Act of 1935, and the specific legislative amendments introduced by the Constitution (25th) Amendment Act (specifically regarding Article 31 and Article 19). Consequently, the documents do not mention Justice H.R. Khanna or his legal opinions.",9344.1,2,1.0,0.809,0.2594,0.0
+Q09,synthesis,"Please provide the content or the relevant excerpt of the document you are referring to. 
+
+As a professional document reviewer, I am ready to analyze the text and provide a clear answer regarding A.N. Ray J.’s position on Parliament’s amending power, including the specific citations from the source material. Once you provide the document text, I will process it for you immediately.",8868.7,0,1.0,0.6847,0.0,0.0
+Q10,edge_case,"Please provide the document content or the extracted information you are referring to. 
+
+As a professional document reviewer, I am ready to analyze the text for you; however, the information field in your request is currently empty. Once you provide the relevant excerpts or the document text, I will be able to identify Justice Smith’s comments regarding land reforms and cite the specific sections of the document to support my answer.",9255.8,0,1.0,0.73,0.0,0.0
+Q11,edge_case,"Based on the document snippet provided, it is not possible to determine the punishment for violating the Kerala Land Reforms Act.
+
+The provided text consists of a single sentence fragment referencing John Locke and the theory of natural rights, along with a URL (http://JUDIS.NIC.IN). There is no mention of the Kerala Land Reforms Act or any associated penalties within the text provided.",9022.9,1,1.0,0.8769,0.1149,0.0

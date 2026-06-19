@@ -1,17 +1,17 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 from google import genai
-from sklearn.metrics.pairwise import cosine_similarity
-from app.utils.embedding import embed_query
 import numpy as np
 import os
 from dotenv import load_dotenv
-from app.utils.embedding import embedding_model
+from app.utils.embedding import embedding_model ,embed_query
 from typing import List
 import uuid
 from app.store import responses_log
 from app.store import save_store
 import app.store as store
+from sklearn.metrics.pairwise import cosine_similarity
+
 
 load_dotenv()
 
@@ -34,7 +34,9 @@ async def compare(body: CompareInput):
             continue
             
         chunk_texts = [c["text"] for c in doc_chunks]
-        chunk_embeddings = chunk_embeddings = embedding_model.encode(chunk_texts).astype('float32')
+        chunk_embeddings = np.array(
+            [c["embedding"] for c in doc_chunks], dtype="float32"
+        )  # ← was: model.encode(chunk_texts) — now reads cached vectors instead
         
         scores = cosine_similarity(query_embedding, chunk_embeddings)[0]
         top_indices = np.argsort(scores)[::-1][:3]
@@ -74,6 +76,7 @@ async def compare(body: CompareInput):
     return {
         "response_id": response_id,
         "comparison": response.text,
+        "contexts": doc_contexts,
         "doc_ids": body.doc_ids,
         "query": body.query
     }

@@ -1,0 +1,51 @@
+id,category,answer,latency_ms,contexts_n,faithfulness,answer_relevancy,context_precision,context_recall
+Q01,factual,"The Writ Petition number in the *Kesavananda Bharati v. State of Kerala* case is **135 of 1970**.
+
+This information is based on the section of the document labeled ""CASE NO.:"" and ""Writ Petition (civil) 135 of 1970.""",12711.3,5,1.0,0.835,0.2216,1.0
+Q02,factual,"Based on the documents provided, it is not possible to determine the date on which the *Kesavananda Bharati* judgment was delivered. The provided text contains citations related to Article 13(2) and Article 368, but it does not mention *Kesavananda Bharati* or a delivery date.",14987.1,4,1.0,0.8229,0.1377,0.0
+Q03,factual,"The petitioner in the *Kesavananda Bharati v. State of Kerala* (1973) case was **Kesavananda Bharati Sripadagalvaru and Ors**.
+
+This information is based on the ""PETITIONER"" field provided in the document overview section, which explicitly states: ""PETITIONER: Kesavananda Bharati Sripadagalvaru and Ors.""",14818.4,4,1.0,0.8169,0.2547,1.0
+Q04,factual,"Please provide the document content or the extracted information you are referring to. 
+
+You have noted that ""relevant information extracted from them is below,"" but that section of your message is currently empty. Once you provide the text or the document details, I will be happy to identify the number of judges who sat on the bench in the *Kesavananda Bharati* case and cite the specific part of the document where that information is located.",15482.4,0,1.0,0.7605,0.0,0.0
+Q05,conceptual,"As a document reviewer, I have analyzed the provided excerpts. Based on the documentation supplied, I must provide the following assessment:
+
+**Response:**
+The provided documents do not contain a definition or explanation of the ""Basic Structure Doctrine"" established in *Kesavananda Bharati*. The excerpts provided focus on the classification of articles in Part III of the Constitution, a statement regarding the amendatory power of the Constitution in relation to the Preamble, and a citation for the *Lower Mainland Dairy Products Board (1938) A.C* case.
+
+**Basis of Answer:**
+This conclusion is based on the entirety of the provided text, specifically:
+*   ""Articles in Part III of the Constitution should accordingly fit into one of these categories""
+*   ""Therefore, the power to amend the Constitution is not restricted and controlled by the Preamble.""
+*   ""940 Lower Mainland Dairy Products Board (1938) A.C""
+
+None of these segments reference *Kesavananda Bharati* or define the Basic Structure Doctrine. If you have additional pages from the document that detail the legal reasoning of that specific case, please provide them, and I would be happy to assist you further.",15939.8,3,1.0,0.6026,0.156,0.0
+Q06,conceptual,"Based on the document provided, there is no mention of the *Kesavananda Bharati* case, nor is there any information regarding which constitutional amendments were challenged in that case.
+
+The provided text contains general legal commentary regarding the interpretation of the term ""legislature,"" a reference to an observation by Lord Shaw concerning the interpretation of ambiguous versus unambiguous words, and brief snippets regarding the voice of elected representatives and inalienable rights. None of these excerpts reference the *Kesavananda Bharati* litigation or specific constitutional amendments.",15317.9,5,1.0,0.7916,0.2119,0.0
+Q07,conceptual,"Please provide the document text or the specific extracted information you are referring to. As your prompt currently contains an empty field for the extracted information, I am unable to identify the specific source material provided for this review.
+
+Once you provide the text, I will be able to analyze the role of the *Golaknath* case in the *Kesavananda Bharati* judgment and cite the specific sections of the document to support my findings.",14937.9,0,1.0,0.7969,0.0,0.0
+Q08,synthesis,"Based on the provided document excerpts, there is no mention of Justice H.R. Khanna or his specific views regarding the amendability of fundamental rights. 
+
+The provided text focuses on the following points:
+*   **Article 394 and Commencement:** It discusses the timeline for when specific Articles and the remaining provisions of the Constitution came into force (referencing page 73 of 502).
+*   **Article 368:** It notes that Article 368 is contained within Part XX of the Constitution, which is dedicated solely to the subject of Constitutional amendment.
+*   **Scope of Amendment Power:** It argues that a broad and comprehensive power of amendment is necessary to prevent the Constitution from becoming too rigid, suggesting that without such power, the Constitution might ""break.""
+
+Because Justice H.R. Khanna is not identified as the author or the subject of these specific excerpts, the provided text does not contain the information necessary to answer your question regarding his views.",19961.5,4,1.0,0.8208,0.2759,0.0
+Q09,synthesis,"Please provide the document text or the extracted information you are referring to so that I may assist you. 
+
+Once the relevant text is provided, I will analyze it to determine A.N. Ray J.'s position on Parliament's amending power and provide a response that clearly cites the specific sections of the document to support the findings.",18580.0,0,1.0,0.7836,0.0,0.0
+Q10,edge_case,"Based on the document provided, there is no mention of a ""Justice Smith"" or any specific judicial commentary regarding land reforms.
+
+The document contains technical legal analysis concerning:
+1.  **Constitutional Amendments and Article 39:** The first part describes the immunity of laws giving effect to the State's policy (under clauses (b) and (c) of Article 39) from being challenged on the grounds of inconsistency with Articles 14, 19, or 31. 
+2.  **The Scope of Amending Power:** The second and third paragraphs discuss the theoretical nature of the Constitution's amending power, arguing that unless expressly limited, the power must be limitless to ensure the Constitution's continuity.
+3.  **Historical Comparisons:** The final paragraph refers to arguments made by ""Sri Palkhiwala"" regarding ideas from the ""Stuart period"" and their potential influence on the Constitution of India.
+
+Because the provided text does not contain any reference to a Justice Smith or the specific topic of land reforms, I am unable to answer your question based on these excerpts.",19349.6,4,1.0,0.77,0.2602,0.0
+Q11,edge_case,"Based on the documents provided, it is not possible to determine the punishment for violating the Kerala Land Reforms Act.
+
+The provided text consists of brief excerpts discussing judicial reasoning regarding Commonwealth legislative power, the interpretation of Article 31(2) regarding property acquisition, and academic discourse on constitutional amendments and the case *A.K. Gopalan v. State of Madras*. None of these excerpts reference the Kerala Land Reforms Act or any specific penalties associated with its violation.",18332.6,5,1.0,0.8766,0.2513,0.0

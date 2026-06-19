@@ -5,7 +5,7 @@ import app.store as store
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-def embed_and_store(chunks: list[str], doc_id: str , filename: str= "Unknown"):
+def embed_and_store(chunks: list[str], doc_id: str, filename: str = "Unknown"):
     embeddings = model.encode(chunks)
     embeddings = np.array(embeddings).astype('float32')
     faiss.normalize_L2(embeddings)
@@ -15,7 +15,8 @@ def embed_and_store(chunks: list[str], doc_id: str , filename: str= "Unknown"):
             "doc_id": doc_id,
             "chunk_index": i,
             "text": chunk,
-            "filename": filename   
+            "filename": filename,
+            "embedding": embeddings[i].tolist()   # ← cache the vector, reuse later
         })
 
 def embed_query(text: str):

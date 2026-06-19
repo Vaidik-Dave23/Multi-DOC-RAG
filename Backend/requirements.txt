@@ -7,3 +7,5 @@ scikit-learn
 numpy
 python-dotenv
 google-genai
+requests 
+pandas

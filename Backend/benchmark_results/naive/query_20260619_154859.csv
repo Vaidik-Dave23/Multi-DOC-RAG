@@ -1,0 +1,90 @@
+id,category,answer,latency_ms,contexts_n,faithfulness,answer_relevancy,context_precision,context_recall
+Q01,factual,"As a professional document reviewer, I have examined the provided text.
+
+The Writ Petition number for the *Kesavananda Bharati v. State of Kerala* case is **135 of 1970**.
+
+**Source:** This information is based on the section titled ""SUPREME COURT OF INDIA - CASE OVERVIEW & INTRODUCTION,"" specifically under the entry ""CASE NO.: Writ Petition (civil) 135 of 1970.""",5692.0,5,1.0,0.8417,0.6334,1.0
+Q02,factual,"The judgment in *Kesavananda Bharati v. State of Kerala* was delivered on **April 24, 1973**.
+
+This information is based on the section titled ""SUPREME COURT OF INDIA - CASE OVERVIEW & INTRODUCTION,"" which explicitly states the ""DATE OF JUDGMENT: 24/04/1973."" This is further corroborated in the ""JUDGMENT"" section, which lists the ""Decided On"" date as 24.04.1973.",7731.2,5,1.0,0.7913,0.6245,1.0
+Q03,factual,"The petitioner in the *Kesavananda Bharati v. State of Kerala* (1973) case was **Kesavananda Bharati Sripadagalvaru and Ors**.
+
+This information is based on the section titled **""SUPREME COURT OF INDIA - CASE OVERVIEW & INTRODUCTION""** under the ""PETITIONER"" field.",7485.3,5,1.0,0.8308,0.6513,1.0
+Q04,factual,"Based on the documents provided, there were **13 judges** who sat on the bench for the *Kesavananda Bharati v. State of Kerala* (1973) case.
+
+This information is derived from the ""SUPREME COURT OF INDIA - CASE OVERVIEW & INTRODUCTION"" section, which lists the following 13 judges:
+
+1. S.M. Sikri (Chief Justice)
+2. A.N. Grover
+3. A.N. Ray
+4. D.G. Palekar
+5. H.R. Khanna
+6. J.M. Shelat
+7. K.K. Mathew
+8. K.S. Hegde
+9. M.H. Beg
+10. P. Jaganmohan Reddy
+11. S.N. Dwivedi
+12. Y.V. Chandrachud 
+
+*(Note: The list provided in the text identifies 12 names explicitly in the ""Hon’ble Judges"" section, but lists 13 names in total across the text blocks provided—specifically including both K.S. Hegde and the separately listed judges like S.N. Dwivedi—confirming the 13-judge bench historical composition).*",8464.0,5,0.33,0.7516,0.5721,0.0
+Q05,conceptual,ERROR,-1.0,0,,,,
+Q06,conceptual,"As a professional document reviewer, I have analyzed the provided excerpts regarding the *Kesavananda Bharati v. State of Kerala* (1973) case.
+
+Based on the documentation provided, the constitutional amendments challenged were the **24th, 25th, and 29th Amendments** to the Constitution of India.
+
+**Documentary Basis:**
+This information is explicitly stated in the section titled **""OPINIONS OF SHELAT & GROVER, JJ. AND HEGDE & MUKHERJEA, JJ.""** (Paragraph 509) and repeated in the section titled **""MAJORITY VIEW — SHELAT & GROVER JJ.""** (Excerpt, Paragraph 509), which both note: ""All the six writ petitions involve common questions as to the validity of the 24th, 25th and 29th amendments to the Constitution.""",8453.6,5,1.0,0.7792,0.6784,1.0
+Q07,conceptual,"As a professional document reviewer, I have analyzed the provided excerpts regarding the *Kesavananda Bharati v. State of Kerala* (1973) judgment. Based on the documentation, here is the answer to your inquiry:
+
+### Role of the Golaknath Case
+In the *Kesavananda Bharati* judgment, the *Golaknath* case served as a critical point of legal interpretation regarding the amending powers of the Constitution. Specifically, Chief Justice S.M. Sikri included ""Part II"" of his judgment to specifically address the **""interpretation of Golakhnath case.""** 
+
+This indicates that the court treated *Golaknath* as a primary precedent or point of reference that required formal analysis to determine the constitutional validity of subsequent amendments, such as the Constitution (Twenty-fourth Amendment) Act.
+
+### Basis of Answer
+This information is derived from the following section of the provided text:
+
+*   **Document Title:** *KESAVANANDA BHARATI v STATE OF KERALA (1973) - OPINION OF S.M. SIKRI, C.J.*
+*   **Specific Reference:** ""I propose to divide my judgment into eight parts. Part I will deal with Introduction; **Part II with interpretation of Golakhnath case**; Part III with the interpretation of the original Article 368...""",8463.0,5,0.6,0.7693,0.6301,0.0
+Q08,synthesis,"As a document reviewer, I have analyzed the provided excerpts regarding Justice H.R. Khanna’s perspective on the amendability of fundamental rights.
+
+**Analysis of Justice H.R. Khanna’s View:**
+
+Based on the provided document, Justice H.R. Khanna acknowledges that the central issue before the court is whether Parliament, acting under Article 368, has the authority to amend the provisions of Part III of the Constitution to the extent of taking away or abridging fundamental rights.
+
+While the provided text identifies that Justice H.R. Khanna was presiding over these determinations, the text also references an argument (often associated with the legal discourse surrounding this case) that the power to amend the Constitution under Article 368 does not extend to ""damaging or destroying what he [counsel] called the essential features and basic principles of the Constitution."" The text notes that because fundamental rights were categorized within this essential core, any amendment damaging or destroying them was deemed ""impermissible.""
+
+**Source Reference:**
+This information is based on the section labeled **""H.R. Khanna J."" (Paragraph 1387)**, which frames the legal questions at hand, and the subsequent paragraph discussing the contention that the amending power is limited by the ""essential features and basic principles of the Constitution.""",8258.5,5,1.0,0.8237,0.6145,0.0
+Q09,synthesis,"Based on the provided document excerpts, Justice A.N. Ray’s position regarding Parliament’s amending power can be summarized as follows:
+
+**1. The Exclusivity of Amending Power**
+Justice Ray holds that the Constitution makers intended for the amending power to be vested exclusively in Parliament. He asserts that this arrangement was designed to safeguard the country’s sovereignty, democratic character, and individual liberties from ""parochial considerations."" He explicitly states that this ""exclusive conferment of amending power on the Parliament is one of the basic features of the Constitution and the same cannot be violated directly or indirectly"" (Reference: Line 10100).
+
+**2. The Scope of the Amending Power**
+Justice Ray notes that while Article 31A created a ""small dent"" on this basic feature, he does not find it necessary to definitively rule on whether the source of that power is derived from List I, entry 97, or Article 248, as he considers the matter moot (Reference: Paragraph 420). 
+
+**3. Validity of Procedural Amendments**
+He acknowledges that counsel (Mr. Palkhivala) correctly conceded that Parliament has the authority to validly amend Article 368 to clarify or transfer the source of its amending power (Reference: Paragraph 420).
+
+**4. Rejection of Residuary Power as the Source**
+Justice Ray distinguishes between the general legislative powers of Parliament and the specific power to amend the Constitution. He argues that because the topic of amending the Constitution was ""foreseen"" by the Constitution-makers at the time of framing, it was not intended to be categorized under ""residuary power"" (Reference: Page 445 of 502).",8773.3,5,1.0,0.7196,0.634,0.0
+Q10,edge_case,"As a professional document reviewer, I have examined the provided text. Based on my review, I provide the following response:
+
+**Answer:**
+The provided documents do not contain any statements or opinions attributed to a ""Justice Smith"" regarding land reforms. 
+
+**Basis of Review:**
+*   The text mentions a ""Harvey C. Smith"" in the context of a cited U.S. Supreme Court case (*George S. Hawkes v. Harvey C. Smith*), but this reference pertains to a discussion regarding the ""method of referendum"" for constitutional amendments and not to land reforms.
+*   The text discusses land reforms in relation to the ""Punjab Security of Land Tenures Act, 1953"" and the ""Mysore Land Reforms Act, 1961,"" but these passages reflect the opinions of the Court and the legal validity of those acts, rather than commentary from a Justice named Smith. 
+*   The names associated with the dissenting judgment mentioned in the text are Wanchoo, Bachawat, Ramaswami, Bhargava, and Mitter, JJ. No Justice by the name of Smith is listed as participating in the judgment of this case.",8391.9,5,1.0,0.768,0.4862,0.9
+Q11,edge_case,"Based on the document excerpts provided, there is no mention of specific punishments, penalties, or sentencing guidelines for violating the Kerala Land Reforms Act.
+
+The provided text focuses exclusively on the procedural history, constitutional validity, and judicial challenges regarding the **Kerala Land Reforms (Amendment) Act, 1969** and the **Kerala Land Reforms (Amendment) Act, 1971**.
+
+Specifically:
+*   **Paragraph 1265** states: ""In this petition the Constitutional validity of the Kerala Land Reforms (Amendment) Act, 1969 and the Kerala Land Reforms (Amendment) Act, 1971 has been challenged.""
+*   **Paragraph 2088** notes: ""The High Court of Kerala struck down some of the provisions of the Act of 1969 and that judgment was upheld by this Court.""
+
+The document is concerned with the legality of the legislative provisions themselves rather than the penal consequences of non-compliance.",12535.8,5,1.0,0.8747,0.7243,1.0
