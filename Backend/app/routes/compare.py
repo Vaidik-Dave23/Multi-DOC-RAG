@@ -36,7 +36,7 @@ async def compare(body: CompareInput):
         chunk_texts = [c["text"] for c in doc_chunks]
         chunk_embeddings = np.array(
             [c["embedding"] for c in doc_chunks], dtype="float32"
-        )  # ← was: model.encode(chunk_texts) — now reads cached vectors instead
+        )  
         
         scores = cosine_similarity(query_embedding, chunk_embeddings)[0]
         top_indices = np.argsort(scores)[::-1][:3]
